@@ -1,0 +1,6 @@
+* * * * * (/somepath/readtemp.py; sleep 30; /somepath/readtemp.py)  > /dev/null
+* * * * * /somepath/hrgraph.py  > /dev/null
+25 */2 * * * /somepath/daygraph.py > /dev/null
+20 */6 * * * /somepath/weekgraph.py > /dev/null
+15 * 1 * * /somepath/monthgraph.py > /dev/null
+10 * * * 0 /somepath/allgraph.py > /dev/null
