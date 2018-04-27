@@ -8,5 +8,8 @@ readings.sql - table structure
 hr/day/week/month/allgraph.py - scripts to read db and creat png images to save in /var/www/html/
 
 readtemp.py - executes precompiled hid-query application (https://github.com/edorfaus/TEMPered/blob/master/utils/hid-query.c) and inserts into db while saving reading to a log file
+* update hidpath with the correct path to your device
+
+finddevicepath.py - script to find the correct hidpath to use
 
 www/index.html - simple html file to load precreated images for users
