@@ -1,5 +1,5 @@
 # Hid-TEMPerHUM-Plot
-Read/Store/View Temp/Hum readings from TEMPerHum v3.1 (SIENOC TEMPerHUM, white internal sensor, blue TXT button, TEMPerX_V3.1, HID ID 413d:2107)
+Read/Store/View Temp&Hum readings from TEMPerHum v3.1 (SIENOC TEMPerHUM, white internal sensor, blue TXT button, TEMPerX_V3.1, HID ID 413d:2107)
 
 cronjobs - entries to add to scheduler to take readings and to update graph images
 
